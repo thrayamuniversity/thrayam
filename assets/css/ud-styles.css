@@ -14,7 +14,7 @@
 :root {
   --font: 'Source Sans Pro', sans-serif;
   --body-color: #637381;
-  --heading-color: #212b36;
+  --heading-color: #d7d7d7;
   --primary-color: #07AEE8;
   --white: #ffffff;
 }
@@ -247,7 +247,7 @@ p {
 }
 
 .navbar-brand img {
-  max-width: 77px;
+  max-width: 55px;
   padding: 10px 0;
 }
 
@@ -1130,6 +1130,11 @@ p {
   margin-bottom: 25px;
 }
 
+.ud-single-testimonial .ud-testimonial-content img {
+  height: 60px;
+  display: none;
+}
+
 .ud-single-testimonial .ud-testimonial-content p {
   font-size: 16px;
   line-height: 30px;
@@ -1469,7 +1474,7 @@ p {
 
 /* ===== Footer CSS ===== */
 .ud-footer {
-  background: var(--heading-color);
+  background: #1e1e1e;
   padding-top: 100px;
   position: relative;
   z-index: 1;
