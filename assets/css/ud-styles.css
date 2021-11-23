@@ -1139,6 +1139,7 @@ p {
   font-size: 16px;
   line-height: 30px;
   color: #637381;
+  display: none;
 }
 
 .ud-single-testimonial .ud-testimonial-info {
@@ -2620,5 +2621,11 @@ p {
     font-size: 14px;
     padding: 10px 20px;
   }
+}
+
+.thrayam-explanation p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: left;
 }
 /*# sourceMappingURL=ud-styles.css.map */
