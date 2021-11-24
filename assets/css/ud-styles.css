@@ -687,7 +687,7 @@ p {
 .ud-section-title span {
   font-weight: 600;
   font-size: 18px;
-  color: var(--primary-color);
+  color: var(--heading-color);
   margin-bottom: 10px;
 }
 
@@ -2623,9 +2623,43 @@ p {
   }
 }
 
+@media (min-width: 768px) {
+  .thrayam-explanation {
+    margin-bottom: -100px;
+  }
+}
+
 .thrayam-explanation p {
-  font-size: 16px;
-  margin-bottom: 15px;
+  font-size: 14px;
+  margin-bottom: 10px;
   text-align: left;
+}
+
+.thrayam-explanation {
+  text-align: left;
+}
+
+.thrayam-explanation img {
+  opacity: 0.7;
+}
+
+.thrayam-explanation .ud-section-title {
+  padding-top: 40px;
+}
+
+.trinity-explanation p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+
+}
+
+.thrayam-explanation h2 {
+  font-size: 24px;
+  line-height: normal;
+}
+
+.thrayam-explanation span {
+  color: var(--heading-color);
 }
 /*# sourceMappingURL=ud-styles.css.map */
